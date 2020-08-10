@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body onload="ques(count)">
+    <div class="main-container" id="main-container">
+    <div class="container">
+
+        <div  class="header-container col-lg-8 col-md-12 col-sm-12 col-12 ">
+            <div class="heading">
+                WELCOME TO CIVIL ENGINEERING QUIZ</div>
+                <div class="timer" id="time">   </div>
+        </div>
+
+
+        <div class="quiz-container col-lg-8 col-md-12 col-sm-12 col-12" id="quiz-container">
+
+            <div class="quiz-qs" id="quiz-qs"> </div>
+            <div class="quiz-opt" id="quiz-opt"></div>
+            <div class="name">
+                BY HM
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12" id="btn">
+        <button id="next" onclick="resultCalc()" class="next">NEXT</button>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="qs.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

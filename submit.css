@@ -1,0 +1,40 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.submit-container{
+    background-image: url('pic/submit.PNG');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.submit-head{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top:10px ;
+}
+.marks{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.back{
+    margin: 30px auto;
+}
+.back>a>button{
+    font-size: 16px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: 700;
+    background-color: rgba(179, 178, 175, 0.5);
+}
